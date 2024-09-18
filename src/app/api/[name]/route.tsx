@@ -4,6 +4,9 @@ import { generateGradient } from '@/lib/gradient'
 import { getAvatarParamsSchema } from '@/zod/api'
 import { getSearchParamsWithArray } from '@dub/utils'
 
+export const runtime = 'edge'
+export const preferredRegion = 'auto'
+
 export async function GET(
   req: NextRequest,
   { params }: { params: { name: string } }

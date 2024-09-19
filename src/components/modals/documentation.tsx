@@ -10,7 +10,7 @@ const ModalDocumentation = () => {
         Documentation
       </DialogTitle>
       <DialogDescription className='hidden'>Documentation</DialogDescription>
-      <section className='flex size-full flex-col gap-5 overflow-y-auto overflow-x-hidden py-6'>
+      <section className='flex size-full flex-col gap-5 overflow-y-auto overflow-x-hidden py-6 scrollbar-thin max-md:px-4'>
         <div className='grid gap-4'>
           <h2 className='text-md font-sans font-semibold'>Most popular</h2>
           <div className='grid gap-3 px-1.5'>

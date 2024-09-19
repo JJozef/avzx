@@ -30,6 +30,7 @@
     "react-code-block": "^1.0.0",
     "react-dom": "^18",
     "tailwind-merge": "^2.5.2",
+    "tailwind-scrollbar": "^3.1.0",
     "tailwindcss-animate": "^1.0.7",
     "tinycolor2": "^1.6.0",
     "validate-color": "^2.2.4",

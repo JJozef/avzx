@@ -3,9 +3,11 @@ import './globals.css'
 import type { Metadata, Viewport } from 'next'
 import { SITE_CONFIG } from '@/config'
 import { cn } from '@/lib/utils'
+import { Analytics } from "@vercel/analytics/react"
+import { ParticlesDot } from '@/components/particles-dot'
 import { ThemeProvider } from './providers'
 import localFont from 'next/font/local'
-import { ParticlesDot } from '@/components/particles-dot'
+
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
